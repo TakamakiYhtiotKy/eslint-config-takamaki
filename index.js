@@ -42,6 +42,17 @@ module.exports = {
         ] 
       }
     ],
+    "react/forbid-prop-types": [
+      1,
+      {
+        "forbid": [
+          "any"
+        ]
+      }
+    ],
+    "react/no-did-mount-set-state": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-direct-mutation-state": 1,
     "react/display-name": 0,
     "react/no-unused-prop-types": 2,
     "import/no-named-as-default-member": 0,

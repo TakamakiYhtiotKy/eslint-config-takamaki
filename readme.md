@@ -4,7 +4,7 @@ The purpose of this repository is to share eslint configs between Takamäki proj
 
 # Installation
 
-1. Add ""eslint-config-takamaki": "git@bitbucket.org:takamaki/eslint-config-takamaki.git#vx.x.x"" to your package.json ependencies.
+1. Add ""eslint-config-takamaki": "git@bitbucket.org:takamaki/eslint-config-takamaki.git#vx.x.x"" to your package.json dependencies. Replace x.x.x with the desired version.
 2. run "npm install"
 3. Install peer dependencies listed in package.json
 4. Add "extends": ["takamaki"] to your .eslint config

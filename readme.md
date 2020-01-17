@@ -16,3 +16,16 @@ This repository is open to suggestions and discussion. If you want to modify, re
 # Overwriting rules
 
 If you want to overwrite a rule you don't like in your project, just define the same rule in your projects own eslint configuration.
+
+# Typescript
+
+You should use ESlint with TypeScript as TSLint was deprecated in 2019. 
+
+To use this config with Typescript add the following to your eslint config:
+
+'extends': [
+    'plugin:@typescript-eslint/eslint-recommended',
+    "plugin:@typescript-eslint/recommended"
+],
+
+Then install this package: https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin

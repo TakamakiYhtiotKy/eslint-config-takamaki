@@ -9,6 +9,8 @@ module.exports = {
     "react"
   ],
   "rules": {
+    "space-infix-ops": 2,
+    "space-unary-ops": 2,
     "no-multiple-empty-lines": 2,
     "no-trailing-spaces": 2,
     "max-len": [
@@ -25,6 +27,8 @@ module.exports = {
       }
     ],
     "keyword-spacing": 2,
+    "template-curly-spacing": ["error", "never"],
+    "react/self-closing-comp": 2,
     "react/jsx-max-props-per-line": ["error", { "maximum": 1, "when": "multiline" }],
     "react/prefer-stateless-function": 2,
     "react/no-unused-state": 2,

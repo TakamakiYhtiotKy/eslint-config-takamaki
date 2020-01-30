@@ -9,6 +9,7 @@ module.exports = {
     "react"
   ],
   "rules": {
+    "no-console": 2,
     "space-infix-ops": 2,
     "space-unary-ops": 2,
     "no-multiple-empty-lines": 2,

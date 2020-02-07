@@ -9,6 +9,8 @@ module.exports = {
     "react"
   ],
   "rules": {
+    "react/jsx-boolean-value": 2, 
+    "react/no-this-in-sfc": 2,
     "no-console": 2,
     "space-infix-ops": 2,
     "space-unary-ops": 2,

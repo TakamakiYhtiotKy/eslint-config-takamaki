@@ -1,6 +1,6 @@
 {
   "name": "@takamaki-group/eslint-config-takamaki",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Set of eslint rules to guide Javascript development at Takamaki",
   "main": "index.js",
   "scripts": {

@@ -6,7 +6,7 @@ The purpose of this repository is to share eslint configs between Takamäki proj
 
 1. run "npm i @takamaki-group/eslint-config-takamaki --save-dev"
 2. Install peer dependencies listed in package.json
-3. Add "extends": ["takamaki"] to your .eslint config
+3. Add "extends": ["@takamaki-group/eslint-config-takamaki"] to your .eslint config
 
 # Overwriting rules
 
